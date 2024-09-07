@@ -1,0 +1,178 @@
+*,
+*::after
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background-color: #163a24;
+    color: #FBFAF7;
+   
+}
+
+.container{
+    max-width: 1220px;
+    padding-left: 20ox;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__link{
+    color: #FBFAF7;
+}
+
+
+.header__buttons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.btn{
+    background-color: #198C36;
+    padding: 15px 25px 15px 25px;
+    border-radius: 160px;
+}
+
+.first-section{
+    background-color: #163a24;
+    height: calc(100vh - 98px);
+    background-image: url(../img/photo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.first-section__txt-block{
+    color: #FBFAF7;
+    max-width: 475px;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+.section__title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.section__sub-title{
+    font-size: 18px;
+}
+
+.fanta{
+    margin-top: 120px;
+    height: 1225px;
+}
+
+.h1{
+    display: flex;
+    height: 510px;
+}
+.h2{
+    width: 400px;
+    height: 200px;
+    padding: 154px 100px;
+
+}
+.l2h1{
+    font-size: 48px;
+}
+
+.l2h2{
+    font-size: 18px;
+}
+
+
+.h3{
+    display: flex;
+    height: 422px;
+}
+.alford{
+    width: 400px;
+    height: 200px;
+    padding: 154px 100px;
+}
+.l2h3{
+    font-size: 48px;
+}
+
+.section__txt-box{
+    font-size: 18px;
+}
+
+.second-section{
+    height: 300px;
+}
+
+.alford2{
+    font-size: 48px;
+    padding-top: 113px;
+    text-align: center;
+}
+
+.second-section2{
+    height: 60px;
+    width: auto;
+    padding-left: 98px;
+}
+
+.third-section{
+    margin-top: 120px;
+    height: 518px;
+    background-color: #163A24;
+
+}
+
+.third-section__box{
+    height: 108px;
+    width: 820px;
+    padding-left: 210px;
+}
+
+.third-section2{
+    font-size: 48px;
+    text-align: center;
+    color: #FBFAF7;
+    padding-top: 66px;
+}
+
+.third-section__box{
+    height: 254px;
+    width: 1180px;
+    display: flex;
+    padding-top: 110px;
+}
+
+.unkled-block{
+    width: 295px;
+    text-align: center;
+}
+
+.section-box__text{
+    color: #FBFAF7;
+    font-size: 18px;
+
+}
+.section-box__text2{
+    color: #FBFAF7;
+    font-size: 18px;
+}
